@@ -25,6 +25,7 @@ int main(){
         sf::Font font;
         if (!font.loadFromFile("arial.ttf")){
                 std::cout << "Error to load Font!\n";
+                system("pause");
         }
         std::string  txt=  "" ; 
         sf::Text text;
